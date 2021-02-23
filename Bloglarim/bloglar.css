@@ -1,0 +1,65 @@
+
+html {
+  background: rgb(255, 171, 163);
+    position: relative;
+}
+.app {
+    
+  
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Truculenta', sans-serif;
+    background-size: cover;
+    text-align: center;
+  
+}
+.minik-box{
+  position: fixed;
+  width: 460px;
+  height: 70px;
+  margin-top: -15px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 3%;
+  z-index: -1;
+}
+.index{
+  margin-top: 0px;
+  margin-left: 10px;
+}
+.blogs{
+  margin-top: -58px;
+  margin-left: 280px;
+}
+.link {
+    color:white;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Truculenta', sans-serif;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+    text-decoration: none;
+   
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+    text-decoration: none;
+    
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+    text-decoration: none;
+  
+  }
