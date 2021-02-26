@@ -39,17 +39,11 @@ color: black;
 font-size: large;
 }
 
-.recentpost {
-  color: black;
-  font-size: large;
 
-
-  z-index: -1;
-}
 .header{
   
     color: black;
-    
+    font-size:small;
     
     display: flex;
     
