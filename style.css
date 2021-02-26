@@ -4,13 +4,13 @@
   box-sizing: border-box;
 }
 html {
-    background: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     
     
 
 }
 .banner {
-  background-color: rgba(228, 228, 228, 0.555);
+  background-color: rgba(185, 185, 185, 0.541);
   padding: 130px 0;
 
 }
