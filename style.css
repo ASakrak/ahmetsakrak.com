@@ -1,76 +1,78 @@
-
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
 html {
     background: rgb(255, 255, 255);
-    padding: 50px;
+    
     
 
 }
-
+.container{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+}
 
 hr {
   border:  solid 1px;
-  width: 1000px;
-  margin-left: 360px;
-  margin-top: -13px;
+  width: 100%;
+ 
+ 
   
  }
  hr.hr1{
-  margin-left: -40px;
-  color: rgba(0, 0, 0, 0.082);
+  
+  color: rgba(0, 0, 0, 0.047);
  }
-.text{
-  margin-top: 200px;
-    margin-left: 700px;
-    position: fixed;
-   color: black;
-  text-shadow: 1px 1px 2px , 0 0 25px rgb(255, 196, 196), 0 0 5px rgb(255, 76, 76);
+.info{
+  text-align: center;
 }
 .newsfeed{
 color: black;
-margin-top: 100px;
-margin-left: 400px;
+
+
 font-size: large;
 }
 .post1{
-  margin-top: 90px;
+  
   
 }
 .recentpost {
   color: black;
   font-size: large;
-  margin-top: 60px;
-  margin-left: 400px;
+
+
   z-index: -1;
 }
-.app {
+.header{
   
     color: black;
     
-    font-family: 'Roboto Mono', monospace;
-    font-family: 'Roboto Slab', serif;
-    font-family: 'Truculenta', sans-serif;
-    padding: 5px
+    
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 20px 0;
+    padding-right: 10px;
 
+}
+.header > div {
+  display: flex;
+  gap: 20px;
+  
 }
 
 .link {
     color:black;
-    margin-top: 100;
+
     
 }
-.index{
-  margin-left: 400px;
-  margin-top: -10px;
-  
-}
-.Blogs{
-  margin-left: 1050px;
-  margin-top: -58px;
-}
-.about{
-    margin-left: 1200px;
-    margin-top: -70px;
-}
+
 a:link {
     color: black;
     text-decoration: none;
@@ -83,7 +85,7 @@ a:link {
     text-decoration: none;
    
   }
-  
+ 
   /* mouse over link */
   a:hover {
     color: black;
