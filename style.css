@@ -37,6 +37,7 @@ font-size: large;
   font-size: large;
   margin-top: 60px;
   margin-left: 400px;
+  z-index: -1;
 }
 .app {
   
