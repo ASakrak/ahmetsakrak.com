@@ -16,16 +16,7 @@ html {
 }
 @media(min-width: 358px)
 {
-.minik-box{
-  position: fixed;
-  width: 280px;
-  height: 70px;
-  margin-top: -14px;
-  margin-left: -10px;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 3%;
-  z-index: -1;
-}
+
 .about{
     margin-top: -57px;
     margin-left: 310px;
