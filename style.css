@@ -14,8 +14,8 @@ html {
   margin-left: auto;
   margin-right: auto;
   max-width: 960px;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Open Sans Condensed', sans-serif;
 }
 
 hr {
@@ -38,10 +38,7 @@ color: black;
 
 font-size: large;
 }
-.post1{
-  
-  
-}
+
 .recentpost {
   color: black;
   font-size: large;
