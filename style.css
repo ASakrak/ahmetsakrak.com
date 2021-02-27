@@ -1,6 +1,7 @@
 * {
   padding: 0px;
   margin: 0px;
+  
   box-sizing: border-box;
 }
 html {
@@ -13,13 +14,15 @@ html {
 .banner {
   background-color: rgba(185, 185, 185, 0.541);
   padding: 130px 0;
-
+  
 }
 .recentl {
   font-size: xx-large;
   
 }
 .container{
+
+  padding: 10px;
   color:black;
   font-family: 'Roboto', sans-serif;
   background-color: rgba(255, 255, 255, 0,004);
@@ -56,27 +59,21 @@ color: black;
 font-size: large;
 }
 
-.prof-pic{
-  
- height: 200px;
- padding-left: 600px 0;
-  width: 220px;
-  padding: 20px;
- 
-}
+
 .accounts {
   
   display: flex;
-  justify-content: space-around;
-  padding-right: 10px 0;
+ 
+ justify-content: space-around;
+  word-spacing: 30px;
 }
 .header{
-  
+ 
     color: black;
     font-size:small;
     
     display: flex;
-    
+  
     justify-content: space-between;
     padding: 20px 0;
     padding-right: 10px;
@@ -85,7 +82,7 @@ font-size: large;
 .header > div {
   display: flex;
   gap: 20px;
-  color:black;
+  color:rgb(0, 0, 0);
 }
 
 .link {
