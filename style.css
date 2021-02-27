@@ -64,7 +64,7 @@ font-size: large;
   
   display: flex;
  
- justify-content: space-around;
+ justify-content: space-evenly;
   word-spacing: 30px;
 }
 .header{
