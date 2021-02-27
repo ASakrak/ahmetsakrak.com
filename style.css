@@ -63,7 +63,7 @@ font-size: large;
 .accounts {
   
   display: flex;
- 
+ text-align: center;
  justify-content: space-evenly;
   word-spacing: 30px;
 }
