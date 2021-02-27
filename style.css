@@ -48,7 +48,20 @@ color: black;
 font-size: large;
 }
 
-
+.prof-pic{
+  
+ height: 200px;
+ padding-left: 600px 0;
+  width: 220px;
+  padding: 20px;
+ 
+}
+.accounts {
+  
+  display: flex;
+  justify-content: space-around;
+  padding-right: 10px 0;
+}
 .header{
   
     color: black;
