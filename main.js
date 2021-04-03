@@ -5,9 +5,11 @@ function typeWriterEffects() {
     const words = ["Ben Ahmet Şakrak Bloguma Hoşgeldiniz.", "Ben Ahmet Şakrak Front-end Developerım."]
 
     let wordCount = 0;
+
     let letterCount = 0;
 
     let currentText = "";
+
     let currentWord = "";
 
     let timeOut = 400;
@@ -42,6 +44,7 @@ function typeWriterEffects() {
             isDeleting = false;
             wordCount++;
         }
+
         setTimeout(type, timeOut);
     }
 
