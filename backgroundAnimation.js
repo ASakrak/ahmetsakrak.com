@@ -3,7 +3,7 @@ function createSquare() {
     const square = document.createElement('span');
 
 
-    var size = Math.random() * 10;
+    var size = Math.random() * 50;
 
     square.style.width = 5 + size + 'px';
     square.style.height = 5 + size + 'px';
