@@ -18,10 +18,21 @@ section {
 }
 span 
 {
-  position: absolute;
+  position: fixed;
   pointer-events: none;
   background: white;
   animation: animate 5s linear infinite;
+}
+@keyframes animate
+{
+  0%
+  {
+    transform: scale(0) translateY(0) rotate(0deg)
+  }
+  100%
+  {
+    transform: scale(1) translateY(-500%) rotate(360deg)
+  }
 }
 .banner {
   background-color: rgba(185, 185, 185, 0.048);
