@@ -2,7 +2,7 @@ function typeWriterEffects() {
 
     //değişkenler
 
-    const words = ["I'm Ahmet Şakrak welcome to my blog.", "I'm Ahmet Şakrak"]
+    const words = ["I'm Ahmet Sakrak welcome to my blog.", "I'm Ahmet Sakrak"]
 
     let wordCount = 0;
 
