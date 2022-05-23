@@ -1,60 +1,61 @@
 * {
   padding: 0px;
   margin: 0px;
-  
+
   box-sizing: border-box;
 }
+
 html {
-    background-color: rgba(0, 0, 0, 0.932);
-    
-    
+  background-color: rgba(0, 0, 0, 0.932);
+
+
 
 }
+
 section {
   padding: 0px;
   margin: 0px;
-  
+
   box-sizing: border-box;
 }
-span 
-{
+
+span {
   position: fixed;
   pointer-events: none;
-  background: -webkit-linear-gradient(left, rgb(255, 0, 0) , rgb(255, 209, 56), rgb(0, 153, 255), blue, violet);
+  background: -webkit-linear-gradient(left, rgb(255, 0, 0), rgb(255, 209, 56), rgb(0, 153, 255), blue, violet);
   background: -o-linear-gradient(right, rgb(255, 0, 0), rgb(255, 209, 56), rgb(0, 153, 255), blue, violet);
   background: -moz-linear-gradient(right, rgb(255, 0, 0), rgb(255, 209, 56), rgb(0, 153, 255), blue, violet);
-  background: linear-gradient(to right, rgb(255, 0, 0) , rgb(255, 209, 56), rgb(0, 153, 255), blue, violet);
+  background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 209, 56), rgb(0, 153, 255), blue, violet);
   opacity: 0.25;
   animation: animate 5s linear infinite;
 }
-@keyframes animate
-{
-  0%
-  {
+
+@keyframes animate {
+  0% {
     transform: scale(0) translateY(0) rotate(0deg)
-    
   }
-  100%
-  {
+
+  100% {
     transform: scale(1) translateY(-500%) rotate(360deg)
   }
 }
+
 .banner {
-  background-color: rgba(255, 255, 255, 0.034);
+  background-color: rgba(255, 255, 255, 0.158);
   padding: 130px 0;
-  
+
 }
 
 .typewrite {
   position: relative;
   background: red;
-  background: -webkit-linear-gradient(left, rgb(255, 0, 0) , rgb(255, 209, 56), rgb(0, 153, 255), blue, violet);
+  background: -webkit-linear-gradient(left, rgb(255, 0, 0), rgb(255, 209, 56), rgb(0, 153, 255), blue, violet);
   background: -o-linear-gradient(right, rgb(255, 0, 0), rgb(255, 209, 56), rgb(0, 153, 255), blue, violet);
   background: -moz-linear-gradient(right, rgb(255, 0, 0), rgb(255, 209, 56), rgb(0, 153, 255), blue, violet);
-  background: linear-gradient(to right, rgb(255, 0, 0) , rgb(255, 209, 56), rgb(0, 153, 255), blue, violet);
+  background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 209, 56), rgb(0, 153, 255), blue, violet);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
+
 }
 
 .typewrite::after {
@@ -70,6 +71,7 @@ span
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
@@ -77,106 +79,112 @@ span
 
 .recentl {
   font-size: xx-large;
-  
+
 }
-.container{
+
+.container {
 
   padding: 10px;
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
   font-family: 'Roboto', sans-serif;
-  background-color: rgba(255, 255, 255, 0,004);
+  background-color: rgba(255, 255, 255, 0, 004);
   border-radius: 5%;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   max-width: 960px;
-  
+
 }
-.hh1 {
-  
-}
+
+.hh1 {}
+
 .post1 {
   font-size: 130%;
   line-height: 200%;
 }
+
 hr {
-  border:  solid 1px;
+  border: solid 1px;
   width: 100%;
- 
- 
-  
- }
- hr.hr1{
-  
-  color: rgba(255, 254, 254, 0.308);
- }
-.info{
-  text-align: center;
-  color:rgb(255, 255, 255);
+
+
+
 }
-.newsfeed{
-color: rgb(255, 255, 255);
+
+hr.hr1 {
+
+  color: rgba(255, 254, 254, 0.308);
+}
+
+.info {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.newsfeed {
+  color: rgb(255, 255, 255);
 
 
-font-size: large;
+  font-size: large;
 }
 
 
 .accounts {
-  
+
   display: flex;
- text-align: center;
- justify-content: space-evenly;
+  text-align: center;
+  justify-content: space-evenly;
   word-spacing: 30px;
 }
-.header{
- 
-    color: rgb(255, 255, 255);
-    font-size:small;
-    
-    display: flex;
-  
-    justify-content: space-between;
-    padding: 20px 0;
-    padding-right: 10px;
+
+.header {
+
+  color: rgb(255, 255, 255);
+  font-size: small;
+
+  display: flex;
+
+  justify-content: space-between;
+  padding: 20px 0;
+  padding-right: 10px;
 
 }
-.header > div {
+
+.header>div {
   display: flex;
   gap: 20px;
-  color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 .link {
-    color:rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 
-    
+
 }
 
 a:link {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 
-  }
-  
-  /* visited link */
-  a:visited {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-   
-  }
- 
-  /* mouse over link */
-  a:hover {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    
-  }
-  
-  /* selected link */
-  a:active {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-  
-  }
-  
+}
+
+/* visited link */
+a:visited {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+
+}
+
+/* selected link */
+a:active {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+
+}
