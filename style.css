@@ -6,7 +6,7 @@
 }
 
 html {
-  background-color: rgba(0, 0, 0, 0.932);
+  background-color: rgba(238, 237, 237, 0.932);
 
 
 
@@ -41,7 +41,7 @@ span {
 }
 
 .banner {
-  background-color: rgba(255, 255, 255, 0.158);
+  background-color: rgba(8, 8, 8, 0.589);
   padding: 130px 0;
 
 }
@@ -61,7 +61,7 @@ span {
 .typewrite::after {
   content: '';
   width: 1px;
-  border-right: 1px solid white;
+  border-right: 1px solid rgb(0, 0, 0);
   height: 100%;
   margin-left: 0.5rem;
   animation: blink 1s infinite;
@@ -85,7 +85,7 @@ span {
 .container {
 
   padding: 10px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-family: 'Roboto', sans-serif;
   background-color: rgba(255, 255, 255, 0, 004);
   border-radius: 5%;
@@ -118,11 +118,11 @@ hr.hr1 {
 
 .info {
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .newsfeed {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 
 
   font-size: large;
@@ -139,7 +139,7 @@ hr.hr1 {
 
 .header {
 
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: small;
 
   display: flex;
@@ -153,38 +153,38 @@ hr.hr1 {
 .header>div {
   display: flex;
   gap: 20px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .link {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 
 
 }
 
 a:link {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-decoration: none;
 
 }
 
 /* visited link */
 a:visited {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-decoration: none;
 
 }
 
 /* mouse over link */
 a:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-decoration: none;
 
 }
 
 /* selected link */
 a:active {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-decoration: none;
 
 }
