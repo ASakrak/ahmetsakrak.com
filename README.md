@@ -1,4 +1,11 @@
-# blog
-source codes of my blog site.
+# AsakrakBlog
+![Yoda](https://raw.githubusercontent.com/scarmuega/choose-your-side/master/yoda.svg?sanitize=true#gh-light-mode-only)
 
-![Ekran görüntüsü 2021-05-31 173722](https://user-images.githubusercontent.com/66999194/120209077-eb802b00-c236-11eb-8565-750849159e07.png)
+
+![Vader](https://raw.githubusercontent.com/scarmuega/choose-your-side/master/vader.svg?sanitize=true#gh-dark-mode-only)
+
+# The Source codes of my blog site.
+*I'm writing blog here nowadays. I started using actively again
+
+
+![background](https://user-images.githubusercontent.com/66999194/179390715-c6c3a958-4de8-4ef4-a1b1-65f4e7a737e9.png)
