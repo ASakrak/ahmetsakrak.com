@@ -96,7 +96,10 @@ span {
 
 }
 
-.hh1 {}
+.hr1 {
+  font-size: 100%;
+  line-height: 200%;
+}
 
 .note {
   font-size: 65%;
@@ -104,7 +107,7 @@ span {
 }
 
 .post1 {
-  font-size: 110%;
+  font-size: 100%;
   line-height: 200%;
 }
 
