@@ -20,7 +20,8 @@ section {
 }
 
 span {
-  /*position: fixed;
+  /*
+  position: fixed;
   pointer-events: none;
   background: -webkit-linear-gradient(left, rgb(255, 0, 0), rgb(255, 209, 56), rgb(0, 153, 255), blue, violet);
   background: -o-linear-gradient(right, rgb(255, 0, 0), rgb(255, 209, 56), rgb(0, 153, 255), blue, violet);
