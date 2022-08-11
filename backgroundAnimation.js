@@ -1,12 +1,12 @@
-/*function createSquare() {
+function createSquare() {
     const section = document.querySelector('section');
     const square = document.createElement('span');
 
 
     var size = Math.random() * 20;
 
-    square.style.width = 5 + size + 'px';
-    square.style.height = 5 + size + 'px';
+    square.style.width = 72 + 'px';
+    square.style.height = 72 + 'px';
 
     square.style.top = Math.random() * innerHeight + 'px';
     square.style.left = Math.random() * innerWidth + 'px';
@@ -17,4 +17,4 @@
         square.remove()
     }, 5000)
 }
-setInterval(createSquare, 150)*/
+setInterval(createSquare, 150)
