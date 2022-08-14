@@ -5,8 +5,8 @@ function createSquare() {
 
     var size = Math.random() * 20;
 
-    square.style.width = 72 + 'px';
-    square.style.height = 72 + 'px';
+    square.style.width = 55 + 'px';
+    square.style.height = 55 + 'px';
 
     square.style.top = Math.random() * innerHeight + 'px';
     square.style.left = Math.random() * innerWidth + 'px';

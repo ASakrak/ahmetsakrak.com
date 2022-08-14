@@ -29,10 +29,10 @@ span {
   background: -moz-linear-gradient(right, rgb(255, 0, 0), rgb(255, 209, 56), rgb(0, 153, 255), blue, violet);
   background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 209, 56), rgb(0, 153, 255), blue, violet);*/
 
-  background-image: url("./src/1f680.png");
+  background-image: url("./src/peepoBlanket.png");
 
   opacity: 0.25;
-  animation: animate 5s linear infinite;
+  animation: animate 5.5s linear infinite;
 }
 
 @keyframes animate {
