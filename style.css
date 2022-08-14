@@ -32,7 +32,7 @@ span {
   background-image: url("./src/peepoBlanket.png");
 
   opacity: 0.25;
-  animation: animate 5.5s linear infinite;
+  animation: animate 4.5s linear infinite;
 }
 
 @keyframes animate {

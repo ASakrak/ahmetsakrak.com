@@ -3,7 +3,7 @@ function createSquare() {
     const square = document.createElement('span');
 
 
-    var size = Math.random() * 20;
+    var size = Math.random() * 10;
 
     square.style.width = 55 + 'px';
     square.style.height = 55 + 'px';
@@ -17,4 +17,4 @@ function createSquare() {
         square.remove()
     }, 5000)
 }
-setInterval(createSquare, 150)
+setInterval(createSquare, 100)
