@@ -2,7 +2,8 @@ function typeWriterEffects() {
 
     //değişkenler
 
-    const words = ["Hallo, willkommen.", "Hei, velkommen.", "Greetings, Welcome.", "Esenlikler, hoş geldiniz.", "Pozdrav, dobrodošli.", "Salvete."]
+    const words = ["ZAFER BAYRAMINIZ KUTLU OLSUN."]
+    //const words = ["Hallo, willkommen.", "Hei, velkommen.", "Greetings, Welcome.", "Esenlikler, hoş geldiniz.", "Pozdrav, dobrodošli.", "Salvete."]
 
     let wordCount = 0;
 
