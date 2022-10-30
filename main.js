@@ -3,8 +3,8 @@ function typeWriterEffects() {
     //değişkenler
 
     //const words = ["30 AĞUSTOS ZAFER BAYRAMINIZ KUTLU OLSUN."]
-    const words = ["29 EKIM CUMHURIYET BAYRAMINIZ KUTLU OLSUN."]
-    //const words = ["Hallo, willkommen.", "Hei, velkommen.", "Greetings, Welcome.", "Esenlikler, hoş geldiniz.", "Pozdrav, dobrodošli.", "Salvete."]
+    //const words = ["29 EKIM CUMHURIYET BAYRAMINIZ KUTLU OLSUN."]
+    const words = ["Hallo, willkommen.", "Hei, velkommen.", "Greetings, Welcome.", "Esenlikler, hoş geldiniz.", "Pozdrav, dobrodošli.", "Salvete."]
 
     let wordCount = 0;
 
