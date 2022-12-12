@@ -1,4 +1,4 @@
-function createSquare() {
+/*function createSquare() {
     const section = document.querySelector('section');
     const square = document.createElement('span');
 
@@ -17,4 +17,4 @@ function createSquare() {
         square.remove()
     }, 5000)
 }
-setInterval(createSquare, 100)
+setInterval(createSquare, 100)*/
