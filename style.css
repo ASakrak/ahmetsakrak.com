@@ -30,7 +30,7 @@ span {
   background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 209, 56), rgb(0, 153, 255), blue, violet);*/
 
 
-  background-image: url("./src/1f384.png");
+  /*background-image: url("./src/1f384.png");*/
 
   opacity: 0.25;
   animation: animate 10s linear infinite;
