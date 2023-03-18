@@ -57,13 +57,19 @@ span {
 }
 
 .banner2 {
-  background-color: rgb(0, 0, 0);
   padding: 179px 0;
   background-image: url("./src/background.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.banner3 {
+
+  padding: 219px 0;
+  background-image: url("./src/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .typewrite {
   position: relative;
