@@ -4,7 +4,7 @@ function typeWriterEffects() {
 
     //const words = ["30 AĞUSTOS ZAFER BAYRAMINIZ KUTLU OLSUN."]
     //const words = ["29 EKIM CUMHURIYET BAYRAMINIZ KUTLU OLSUN."]
-    const words = ["Hallo, willkommen auf meinem persönlichen Blog", "Greetings, welcome to my personal blog."]
+    const words = ["Hallo, willkommen auf meinem persönlichen Blog.", "Greetings, welcome to my personal blog."]
 
     let wordCount = 0;
 
