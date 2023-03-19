@@ -49,6 +49,11 @@ span {
   }
 }
 
+.gallery {
+  position: relative;
+  justify-content: space-evenly;
+}
+
 .banner {
   display: flex;
   text-align: center;
@@ -66,6 +71,20 @@ span {
 .banner3 {
 
   padding: 219px 0;
+  background-image: url("./src/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner4 {
+  padding: 198px 0;
+  background-image: url("./src/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner5 {
+  padding: 224.5px 0;
   background-image: url("./src/background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -246,4 +265,21 @@ a:active {
   color: rgb(255, 255, 255);
   text-decoration: none;
 
+}
+
+@media all and (max-width: 375px) {
+  .header {
+    font-size: x-small;
+  }
+
+  .gallery {
+    transform: rotate(0deg);
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    position: relative;
+
+    height: auto;
+
+    max-width: 100px;
+  }
 }

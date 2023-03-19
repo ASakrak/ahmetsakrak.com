@@ -54,3 +54,11 @@ function typeWriterEffects() {
 }
 
 typeWriterEffects();
+/*<div class="gallery">
+            <h2>Confused Tech gadgets</h2>
+            <br>
+            <img src="./Works/samplex1.png" alt="FirstImage" width="750" height="500">
+            <img src="./Works/samplex4.png" alt="FirstImage" width="750" height="500">
+            <img src="./Works/sample2.png" alt="FirstImage" width="750" height="500">
+
+        </div> */
