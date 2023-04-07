@@ -215,6 +215,13 @@ hr.hr1 {
   word-spacing: 30px;
 }
 
+.image2 {
+  max-width: 100%;
+  width: 100%;
+  height: auto !important;
+  background-size: cover;
+}
+
 .header {
 
   color: rgb(255, 255, 255);
@@ -281,5 +288,16 @@ a:active {
     height: auto;
 
     max-width: 100px;
+  }
+
+  .post1 {
+    font-size: 100%;
+    line-height: 200%;
+    max-width: 100%;
+    width: 100%;
+    height: auto !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 }
