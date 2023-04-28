@@ -12,6 +12,10 @@ html {
 
 }
 
+img {
+  width: 70%;
+  height: 70%;
+}
 
 
 section {
@@ -274,9 +278,16 @@ a:active {
 
 }
 
+
+
 @media all and (max-width: 375px) {
   .header {
     font-size: x-small;
+  }
+
+  img {
+    width: 350%;
+    height: 350%;
   }
 
   .gallery {
