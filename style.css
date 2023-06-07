@@ -108,8 +108,8 @@ span {
 
 .typewrite::after {
   content: '';
-  width: 3px;
-  border-right: 3px solid rgb(255, 255, 255);
+  width: 2px;
+  border-right: 2.7px solid rgb(255, 255, 255);
   height: 100%;
   margin-left: 0.5rem;
   animation: blink 2s infinite;

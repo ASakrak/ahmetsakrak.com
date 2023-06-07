@@ -4,7 +4,7 @@ function typeWriterEffects() {
 
     //const words = ["30 AĞUSTOS ZAFER BAYRAMINIZ KUTLU OLSUN."]
     //const words = ["29 EKIM CUMHURIYET BAYRAMINIZ KUTLU OLSUN."]
-    const words = ["Hallo, willkommen auf meinem persönlichen Blog.", "Greetings, welcome to my personal blog."]
+    const words = ["Hallo, willkommen."]
 
     let wordCount = 0;
 
@@ -14,7 +14,7 @@ function typeWriterEffects() {
 
     let currentWord = "";
 
-    let timeOut = 400;
+    let timeOut = 500;
 
     let isDeleting = false;
 
@@ -36,7 +36,7 @@ function typeWriterEffects() {
 
         document.querySelector('.typewrite').textContent = currentText;
 
-        timeOut = isDeleting ? 25 : 80;
+        timeOut = isDeleting ? 75 : 80;
 
         if (!isDeleting && currentText.length === currentWord.length) {
             timeOut = 2000;
