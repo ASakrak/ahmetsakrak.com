@@ -14,7 +14,7 @@ function typeWriterEffects() {
 
     let currentWord = "";
 
-    let timeOut = 500;
+    let timeOut = 800;
 
     let isDeleting = false;
 
