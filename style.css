@@ -66,34 +66,33 @@ span {
 }
 
 .banner2 {
-  background-image: url("./src/background.png");
-  height: 100%;
-  padding: 195.2px 0;
-  filter: blur(4px);
-  -webkit-filter: blur(4px);
+  background-image: url("./src/background4.png");
 
+  padding: 195.2px 0;
+  filter: blur(0px);
+  -webkit-filter: blur(.5px);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .banner3 {
 
-  padding: 240.7px 0;
-  background-image: url("./src/background.png");
-  filter: blur(4px);
-  -webkit-filter: blur(4px);
-
+  padding: 195.2px 0;
+  background-image: url("./src/background4.png");
+  filter: blur(1px);
+  -webkit-filter: blur(0.5px);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .banner4 {
-  padding: 198px 0;
-  background-image: url("./src/background.png");
+  padding: 195.2px 0;
+  background-image: url("./src/background4.png");
   filter: blur(4px);
-  -webkit-filter: blur(4px);
+  -webkit-filter: blur(0.5px);
 
   background-position: center;
   background-repeat: no-repeat;
@@ -101,10 +100,10 @@ span {
 }
 
 .banner5 {
-  padding: 224.5px 0;
-  background-image: url("./src/background.png");
+  padding: 195.2px 0;
+  background-image: url("./src/background4.png");
   filter: blur(4px);
-  -webkit-filter: blur(4px);
+  -webkit-filter: blur(0.5px);
 
   background-position: center;
   background-repeat: no-repeat;
@@ -112,10 +111,10 @@ span {
 }
 
 .banner6 {
-  padding: 245.5px 0;
-  background-image: url("./src/background.png");
+  padding: 245.2px 0;
+  background-image: url("./src/background4.png");
   filter: blur(4px);
-  -webkit-filter: blur(4px);
+  -webkit-filter: blur(0.5px);
 
   background-position: center;
   background-repeat: no-repeat;
