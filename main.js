@@ -4,7 +4,7 @@ function typeWriterEffects() {
 
     //const words = ["30 AĞUSTOS ZAFER BAYRAMINIZ KUTLU OLSUN."]
     //const words = ["29 EKIM CUMHURIYET BAYRAMINIZ KUTLU OLSUN."]
-    const words = ["Hallo, willkommen."]
+    const words = ["Hallo."]
 
     let wordCount = 0;
 
@@ -39,10 +39,10 @@ function typeWriterEffects() {
         timeOut = isDeleting ? 75 : 80;
 
         if (!isDeleting && currentText.length === currentWord.length) {
-            timeOut = 2000;
+            timeOut = 3000;
             isDeleting = true;
         } else if (isDeleting && currentText.length === 0) {
-            timeOut = 1000;
+            timeOut = 2000;
             isDeleting = false;
             wordCount++;
         }
