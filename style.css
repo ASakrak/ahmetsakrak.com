@@ -66,8 +66,13 @@ span {
 }
 
 .banner2 {
-  padding: 195.2px 0;
   background-image: url("./src/background.png");
+  height: 100%;
+  padding: 195.2px 0;
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -76,6 +81,10 @@ span {
 
   padding: 240.7px 0;
   background-image: url("./src/background.png");
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -83,6 +92,10 @@ span {
 .banner4 {
   padding: 198px 0;
   background-image: url("./src/background.png");
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -90,6 +103,10 @@ span {
 .banner5 {
   padding: 224.5px 0;
   background-image: url("./src/background.png");
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -97,6 +114,10 @@ span {
 .banner6 {
   padding: 245.5px 0;
   background-image: url("./src/background.png");
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -117,7 +138,7 @@ span {
 .typewrite::after {
   content: '';
   width: 2px;
-  border-right: 2.7px solid rgb(167, 167, 167);
+  border-right: 1.7px solid rgb(255, 255, 255);
   height: 100%;
   margin-left: 0.8rem;
   animation: blink 2s infinite;
@@ -143,7 +164,7 @@ span {
 .container {
 
   padding: 10px;
-  color: rgb(239, 246, 255);
+  color: rgb(255, 255, 255);
   font-family: 'Roboto', sans-serif;
   background-color: rgba(255, 255, 255, 0, 004);
   border-radius: 5%;
@@ -197,19 +218,19 @@ hr {
 
 hr.hr1 {
 
-  color: rgb(239, 246, 255);
+  color: rgb(255, 255, 255);
 }
 
 .info {
   text-align: center;
-  color: rgb(239, 246, 255);
+  color: rgb(255, 255, 255);
   background-image: url("./src/background.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .newsfeed {
-  color: rgb(239, 246, 255);
+  color: rgb(255, 255, 255);
 
 
   font-size: large;
@@ -236,7 +257,7 @@ hr.hr1 {
 
 .header {
 
-  color: rgb(239, 246, 255);
+  color: rgb(255, 255, 255);
   font-size: small;
 
   display: flex;
@@ -250,38 +271,38 @@ hr.hr1 {
 .header>div {
   display: flex;
   gap: 20px;
-  color: rgb(239, 246, 255);
+  color: rgb(255, 255, 255);
 }
 
 .link {
-  color: rgb(239, 246, 255);
+  color: rgb(255, 255, 255);
 
 
 }
 
 a:link {
-  color: rgb(239, 246, 255);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 
 }
 
 /* visited link */
 a:visited {
-  color: rgb(239, 246, 255);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 
 }
 
 /* mouse over link */
 a:hover {
-  color: rgb(239, 246, 255);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 
 }
 
 /* selected link */
 a:active {
-  color: rgb(239, 246, 255);
+  color: rgb(255, 255, 255);
   text-decoration: none;
 
 }
